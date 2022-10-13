@@ -1,0 +1,7 @@
+export const URL_IMG = 'https://www.swapi.tech/api/'
+export const PLANETS = 'planets/'
+export const PEOPLE = 'people/'
+export const FILMS = 'films/'
+export const STARSHIPS = 'starships/'
+export const VEHICLES = 'vehicles/'
+export const SPECIES = 'species/'
