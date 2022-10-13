@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div className='container-fluid'>
+        <div className='star container-fluid'>
             <div className='center row d-block'>
                 <div className='col'>
                     <h1 className='my-5 text-center'>

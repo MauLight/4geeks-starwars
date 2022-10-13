@@ -38,11 +38,11 @@ const IndividualCard = () => {
     return (
         <div className='row'>
             {
-                !!element && element.length > 0 && element.map((elem) => {
+                !!element && element.length > 0 && element.map((elem, i) => {
                     return (
                         <div className='col-3 mb-3' key={elem.uid}>
                             <div className="card rounded-0">
-                                <img src="https://starwars-visualguide.com/assets/img/planets/2.jpg" className="card-img-top rounded-0" alt="..." />
+                                <img src={config.VEHICLES_ARR[i]} className="card-img-top rounded-0" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">{elem.name}</h5>
                                     <a href="#" className="btn btn-outline-dark rounded-0">DATABASE</a>
